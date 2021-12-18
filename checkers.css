@@ -1,0 +1,73 @@
+.board-container{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    outline: 1vh dashed rgb(85, 64, 37);
+    width: 80vh;
+    height: 80vh;
+    background-color: rgb(153, 118, 72); 
+    margin: 10vh auto auto auto;
+    z-index: 10;
+}
+
+.side-bar{
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    padding:3%;
+    z-index: -1;
+}
+
+.side-bar-div{
+    display: inline-block;
+}
+
+body{
+    margin: 0;
+    background-color: wheat;
+}
+
+.box{
+    width: 10vh;
+    height: 10vh;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
+
+.wheat{
+    background-color: wheat;
+}
+
+.piece{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    position: absolute; 
+    align-self: center;
+    margin-top: 1vh;
+    margin-left: 1vh;  
+}
+
+.button-start{
+    display: block;
+    margin: 2vh auto;
+}
+
+.green{
+    background-color: rgba(143, 216, 9, 0.719);
+}
+
+.piece-to-kill{
+    outline: 1px solid purple;
+}
+
+.king{
+    max-width: 7vh;
+    max-height: 7vh;
+    margin: .5vh;
+}
